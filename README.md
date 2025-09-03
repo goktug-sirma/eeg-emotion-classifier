@@ -1,4 +1,4 @@
-# EEG Emotion Classifier
+# 🧠 EEG Emotion Classifier
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
@@ -10,7 +10,7 @@ A machine learning pipeline for emotion classification from EEG signals.
 Currently implemented with classical ML methods (SVM) on the preprocessed **DEAP** dataset.
 
 
-## Project Structure
+## 📂 Project Structure
 ```
 eeg-emotion-classifier/
 ├── data/ # raw and processed EEG data (not included in repo)
@@ -21,14 +21,14 @@ eeg-emotion-classifier/
 └── .gitignore
 ```
 
-## Installation
+## ⚙️ Installation
 Clone the repository and install the dependencies:
 ```bash
 git clone https://github.com/goktug-sirma/eeg-emotion-classifier.git
 cd eeg-emotion-classifier
 pip install -r requirements.txt
 ```
-## Usage
+## ▶️ Usage
 1. Download the [DEAP dataset](http://www.eecs.qmul.ac.uk/mmv/datasets/deap/)  
    - Required files: `data_preprocessed_python.zip`  
    - Extract the archive and place all `sXX.dat` files into `data/raw/`.  
@@ -38,14 +38,14 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## Results
+## 📊 Results
 Results will be added after running on real data.
 Expected outputs:
 - results/confusion_matrix.png
 - results/roc_curve.png
 - results/metrics.txt
 
-## Roadmap
+## 🗺️ Roadmap
 - ✅ Project structure and pipeline skeleton  
 - ✅ Preprocessing and feature extraction  
 - ✅ SVM training and evaluation  
@@ -53,5 +53,5 @@ Expected outputs:
 - ⬜ Explore cross-subject generalization  
 - ⬜ Experiment with deep learning models (CNN, LSTM, Transformers) 
 
-## License
+## 📜 License
 This project is licensed under the [MIT License](LICENSE).
