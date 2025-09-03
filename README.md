@@ -3,6 +3,8 @@
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Work_in_Progress-orange.svg)
+![ML](https://img.shields.io/badge/ML-SVM%20%7C%20Feature%20Extraction-brightgreen)
+
 
 A machine learning pipeline for emotion classification from EEG signals.  
 Currently implemented with classical ML methods (SVM) on the preprocessed **DEAP** dataset.
